@@ -17,3 +17,8 @@ venv.bak/
 pip-selfcheck.json
 
 # End of https://www.gitignore.io/api/venv
+
+# pyinstaller
+__pycache__/
+build/
+*.spec
