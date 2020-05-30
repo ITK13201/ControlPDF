@@ -8,7 +8,6 @@ def main():
             break
         else:
             print('Error: No such command. Input again.')
-    
 
     '''PDFファイルの結合'''
     if cmd == 'c':
@@ -132,5 +131,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
