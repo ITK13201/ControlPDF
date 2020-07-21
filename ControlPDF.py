@@ -101,7 +101,7 @@ def main():
             except ValueError as err:
                 print('Error: invalid literal for int(). Input again.')
             else:
-                if first_num > pdf_reader.numPages - 1 or last_num > pdf_reader.numPages - 1 or first_num >= last_num:
+                if first_num > pdf_reader.numPages - 1 or last_num > pdf_reader.numPages - 1 or first_num > last_num:
                     print('Error: Incorrect number! Input again.')
                 else:
                     break

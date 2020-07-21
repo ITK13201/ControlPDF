@@ -22,3 +22,6 @@ pip-selfcheck.json
 __pycache__/
 build/
 *.spec
+
+# pdfファイルの除去
+*.pdf
